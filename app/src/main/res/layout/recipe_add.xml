@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/recipe_add_gradient">
+
+    <Spinner
+        android:id="@+id/spinnerName"
+        android:layout_width="255dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edittext_rounded"
+        android:ems="10"
+        android:popupBackground="@drawable/edittext_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/addImageView"
+        android:layout_width="156dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerName"
+        app:srcCompat="@drawable/ic_image" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseImg"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerIngr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerName" />
+
+    <Spinner
+        android:id="@+id/spinnerIngr"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittext_rounded"
+        android:ems="10"
+        android:popupBackground="@drawable/edittext_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addImageView" />
+
+    <Spinner
+        android:id="@+id/spinnerSteps"
+        android:layout_width="251dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edittext_rounded"
+        android:popupBackground="@drawable/edittext_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerIngr" />
+
+    <Spinner
+        android:id="@+id/spinnerCat"
+        android:layout_width="259dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/edittext_rounded"
+        android:popupBackground="@drawable/edittext_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerSteps" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_gradient"
+        android:popupBackground="@drawable/edittext_rounded"
+        android:textSize="20dp"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCat"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

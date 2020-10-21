@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="food_name_array">
+        <item>Nasi Lemak</item>
+        <item>Slow-Cooker Pulled Pork</item>
+        <item>Summer Sushi</item>
+    </string-array>
+    <string-array name="food_ingr_array">
+        <item>
+            coconut milk steamed rice, 2 cups rice, 3 screwpine leaves, tie them into a knot as shown above
+                salt to taste, 1 can coconut milk (5.6 oz), some water
+        </item>
+        <item>2 large sweet onions, cut into 1/2-inch slices,
+        1 (5- to 6-lb.) boneless pork shoulder roast (Boston butt),
+            2 tablespoons garlic-oregano-red pepper seasoning blend,
+            1 teaspoon kosher salt,
+            1 (10 1/2-oz.) can condensed chicken broth
+        </item>
+        <item>
+            100g sushi rice,
+            20ml sushi vinegar,
+            japanese mayonnaise,
+            tuna or other seafood of choice,
+            2 spring onions,
+            nori seaweed
+
+        </item>
+    </string-array>
+    <string-array name="food_steps_array">
+        <item>
+            1. Just like making steamed rice, rinse your rice and drain. Add the coconut milk, a pinch of salt, and some water. Add the pandan leaves into the rice and cook your rice.
+            2. Rinse the dried anchovies and drain the water. Fry the anchovies until they turn light brown and put aside.
+            3. Pound the prawn paste together with shallots, garlic, and deseeded dried chilies with a mortar and pestle. You can also grind them with a food processor. Slice the red onion into rings. Soak the tamarind pulp in water for 15 minutes. Squeeze the tamarind constantly to extract the flavor into the water. Drain the pulp and save the tamarind juice.
+            4. Heat some oil in a pan and fry the spice paste until fragrant. Add in the onion rings. Add in the ikan bilis and stir well. Add tamarind juice, salt, and sugar. Simmer on low heat until the gravy thickens. Set aside.
+            5. Clean the small fish, cut them into half and season with salt. Deep fry. Cut the cucumber into slices and then quartered into four small pieces. Dish up the steamed coconut milk rice and pour some sambal ikan bilis on top of the rice. Serve with fried fish, cucumber slices, and hard-boiled eggs.
+        </item>
+        <item>
+            1. Place onions in a lightly greased 6-qt. slow cooker. Rub roast with seasoning blend and salt; place roast on onions. Pour broth over roast. Cover and cook on LOW 8 to 10 hours or until meat shreds easily with a fork.
+            2. Transfer roast to a cutting board or serving platter; shred with 2 forks, removing any large pieces of fat. Remove onions with a slotted spoon, and serve with pork. (Reserve 4 cups shredded pork for Pork Noodle Bowls and Pulled Pork Nachos, if desired.)
+            3. Tested with McCormick Grill Mates Backyard Brick Oven Seasoning
+        </item>
+        <item>
+            1. Let’s start by making the sushi rice.
+            2. Pre-heat your oven 180C. If you need to cook any of your seafood, now’s the time. Otherwise finely chop your spring onions.
+            3. In a bowl mix together the mayonnaise, tuna and spring onions. We like a 2:1 ratio of mayonnaise to other ingredients.
+            4. Very lightly oil an oven pan and spread your sushi rice along the bottom. Next, top with the mayonnaise mixture. Cook for around 15 minutes.
+            5. Remove from the oven and spoon the rice on to a bit of your nori seaweed.
+        </item>
+    </string-array>
+    <string-array name="food_cat_array">
+        <item>Malaysian Delights</item>
+        <item>Western Dish</item>
+        <item>Japanese Dish</item>
+    </string-array>
+</resources>

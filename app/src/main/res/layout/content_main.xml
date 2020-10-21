@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/edittext_rounded"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textFoodName"
+        android:layout_width="161dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="Food Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/activityImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/activityImage"
+        android:layout_width="394dp"
+        android:layout_height="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFoodName"
+        app:srcCompat="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/textFoodIngr"
+        android:layout_width="208dp"
+        android:layout_height="103dp"
+        android:layout_below="@+id/activityImage"
+        android:layout_alignStart="@+id/textFoodName"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+
+        android:scrollbars="vertical"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/activityImage" />
+
+    <TextView
+        android:id="@+id/textFoodSteps"
+        android:layout_width="203dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:freezesText="true"
+        android:scrollbars="vertical"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textFoodIngr" />
+
+    <TextView
+        android:id="@+id/textFoodCat"
+        android:layout_width="205dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/textFoodIngr"
+        android:layout_alignStart="@+id/textFoodName"
+        android:layout_marginTop="48dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textFoodSteps" />
+
+    <ImageView
+        android:id="@+id/imageDelete"
+        android:layout_width="113dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/textFoodCat"
+        android:layout_alignParentEnd="false"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFoodCat"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="123dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/food_ingr"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityImage" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/food_steps"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textFoodIngr" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="@string/food_cat_prompt"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
